@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import { ContactItem } from '../ContactItem/ContactItem';
-import { ListBlock} from './ContactList.styled';
+import { ListBlock } from './ContactList.styled';
+
 export const ContactList = ({ contacts, onClick }) => {
   return (
     <ListBlock>
